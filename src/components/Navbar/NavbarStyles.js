@@ -74,18 +74,9 @@ export const NavMenu = styled.ul`
 
 export const NavItems = styled.li`
   height: 80px;
-  border-bottom: 2px solid transparent;
-
-  &:hover {
-    border-bottom: 2px solid lightcoral;
-  }
 
   @media screen and (max-width: 960px) {
     width: 100%;
-
-    &:hover {
-      border: none;
-    }
   }
 `;
 
@@ -97,16 +88,16 @@ export const NavLink = styled(Link)`
   padding: 0.5rem 1rem;
   height: 100%;
 
+  &:hover {
+    color: #00bfff;
+    transition: all 0.3s ease;
+  }
+
   @media screen and (max-width: 960px) {
     text-align: center;
     padding: 2rem;
     width: 100%;
     display: table;
-
-    &:hover {
-      color: #4b59f7;
-      transition: all 0.3s ease;
-    }
   }
 `;
 
