@@ -4,7 +4,7 @@ import { Container } from "../../globalStyles";
 import { FaHome } from "react-icons/fa";
 
 export const Nav = styled.nav`
-  background: lightblue;
+  background: #5d2feb;
   color: white;
   height: 80px;
   display: flex;
@@ -68,7 +68,7 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;
-    background: lightblue;
+    background: #5d2feb;
   }
 `;
 

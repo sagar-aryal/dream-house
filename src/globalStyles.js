@@ -24,11 +24,12 @@ export const Container = styled.div`
 `;
 
 export const Button = styled.button`
-  background: ${({ primary }) => (primary ? "#FFFF00" : "#FFDEAD")};
+  background: ${({ primary }) => (primary ? "#6E33FF" : "#FFDEAD")};
   border-radius: 4px;
   white-space: nowrap;
   padding: ${({ big }) => (big ? "12px 64px" : "10px 20px")};
-  color: #4682b4;
+  color: #424240;
+  font-weight: 600;
   font-size: ${({ bigFont }) => (bigFont ? "20px" : "16px")};
   outline: none;
   border: none;
@@ -36,8 +37,7 @@ export const Button = styled.button`
 
   &:hover {
     transition: all 0.5s ease-out;
-    background: #ffff;
-    background: ${({ primary }) => (primary ? "#FFDEAD" : "#FFFF00")};
+    background: ${({ primary }) => (primary ? "#FFDEAD" : "#6283F2")};
   }
 
   @media screen and (max-width: 960px) {

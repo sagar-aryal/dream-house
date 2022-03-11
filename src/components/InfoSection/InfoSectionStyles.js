@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
   color: #ffff;
-  padding: 160px 0;
-  background-color: ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
+  padding: 80px 0;
+  background: ${({ lightBg }) => (lightBg ? "#909497" : "#3D3C3F")};
 `;
 
 export const InfoRow = styled.div`

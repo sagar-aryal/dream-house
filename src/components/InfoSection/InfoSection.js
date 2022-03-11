@@ -14,7 +14,7 @@ import {
 } from "./InfoSectionStyles";
 
 const InfoSection = ({
-  lightbg,
+  lightBg,
   imgStart,
   lightSubtitle,
   subtitle,
@@ -30,7 +30,7 @@ const InfoSection = ({
 }) => {
   return (
     <>
-      <InfoContainer lightbg={lightbg}>
+      <InfoContainer lightBg={lightBg}>
         <Container>
           <InfoRow imgStart={imgStart}>
             <InfoColumn>
@@ -39,9 +39,7 @@ const InfoSection = ({
                 <Heading lightHeading={lightHeading}>{heading}</Heading>
                 <Content lightContent={lightContent}>{content}</Content>
                 <Link to="/sign-up">
-                  <Button big fontBig primary={primary}>
-                    {buttonLabel}
-                  </Button>
+                  <Button primary={primary}>{buttonLabel}</Button>
                 </Link>
               </TextWrapper>
             </InfoColumn>
